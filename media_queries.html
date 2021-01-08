@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mediaqueries</title>
+        <style>
+            @media screen and (min-width: 992px) {
+                .media-class::before {
+                    content: "😍";
+                }
+                }
+            
+            @media screen and (max-width: 600px) {
+                .media-class::before {
+                    content: "✨";
+                }
+                }
+
+            
+            
+        </style>
+    </head>
+    <body>
+        <p>This is the first paragraph</p>
+        <p>This is the other paragraph</p>
+        <p class="media-class">This is another paragraph</p>
+    </body>
+</html>
